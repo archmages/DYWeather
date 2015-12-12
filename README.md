@@ -1,7 +1,7 @@
 # DYWeather
 A weather app which is built by RxJava and Retrofit
 
-![](http://ww1.sinaimg.cn/large/53488390gw1eyxc2nmflgg20lc0zk7ae.gif)
+![](http://ww3.sinaimg.cn/large/53488390gw1eyxcsssv90g20ax0izmxs.gif)
 
 # Functions
 * Current city's weather
