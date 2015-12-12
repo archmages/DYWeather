@@ -1,0 +1,10 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">DYWeather</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="tmp_range">最高:<xliff:g id="up">%s</xliff:g>℃&#160;&#160;&#160;&#160;最低:<xliff:g id="down">%s</xliff:g>℃</string>
+</resources>
