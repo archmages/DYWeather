@@ -42,3 +42,6 @@ captures/
 
 *.iml
 .idea
+
+gradle.properties
+keys/
