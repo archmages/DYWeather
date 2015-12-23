@@ -18,3 +18,5 @@ deploy:
   file: app/build/outputs/apk/app-release.apk
   on:
     repo: archmages/DYWeather
+    tags: true
+    all_branches: true
