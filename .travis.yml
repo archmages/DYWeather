@@ -10,4 +10,4 @@ script:
 - ./gradlew :app:assembleRelease
 before_install:
 - openssl aes-256-cbc -K $encrypted_59c5087c0788_key -iv $encrypted_59c5087c0788_iv
-  -in dy.keystore.enc -out keys/dy.keystore -d
+  -in dy.keystore.enc -out dy.keystore -d
