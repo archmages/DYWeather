@@ -9,6 +9,7 @@ android:
 script:
 - ./gradlew :app:assembleRelease
 before_install:
+- gem install fir-cli
 - openssl aes-256-cbc -K $encrypted_59c5087c0788_key -iv $encrypted_59c5087c0788_iv
   -in dy.keystore.enc -out dy.keystore -d
 deploy:
@@ -21,7 +22,5 @@ deploy:
     tags: true
     all_branches: true
 
-before_install:
-- gem install fir-cli
 after_deploy:
 - fir p app/build/outputs/apk/app-release.apk -T $FIR_TOKEN -c "`git cat-file tag $TRAVIS_TAG`"
